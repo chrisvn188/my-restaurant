@@ -15,6 +15,7 @@ module.exports = {
             scriptLoading: 'defer',
         }),
     ],
+    devtool: 'inline-source-map',
     module: {
         rules: [
             {

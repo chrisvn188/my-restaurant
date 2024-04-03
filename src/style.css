@@ -8,6 +8,7 @@
 
 body {
     line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -55,6 +56,15 @@ nav * + * {
 
 h2 {
     margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #b10000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
 
 .logo {
@@ -71,6 +81,7 @@ h2 {
 .content {
     max-width: 80%;
     margin: auto;
+    margin-bottom: 3rem;
 }
 
 .homepage {
@@ -78,11 +89,34 @@ h2 {
 }
 
 .homepage > * + * {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .hero-image {
     width: 100%;
+}
+
+.hour-list > * + * {
+    margin-top: 0.5rem;
+}
+
+.hour-item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.day {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    width: 100px;
+}
+
+.hour {
+    font-weight: 700;
+    font-size: 1.1rem;
 }
 
 @keyframes appear {
